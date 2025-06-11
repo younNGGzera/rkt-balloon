@@ -1,0 +1,12 @@
+{
+
+	"Balloon" : "Balloon",
+	"not_owned" : "You don't own a Balloon",
+	"balloon_bought" : "You have purchased the Balloon",
+	"owned_balloon" : "You already own a Balloon",
+	"Balloon_Controls" : "Ballon Controls",
+	"Altitude_unlock" : "Change Altitude",
+	"Buy_Baloon" : "Buy Balloon",
+	"buy_confirmation" : "Are you sure?"
+	
+}

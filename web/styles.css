@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ultra', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    display: none;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    color: #701717;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Ultra', serif;
+}
+
+.button:hover {
+    color: #a02222;
+}
+
+.percentage {
+    font-size: 18px;
+    color: #701717;
+    font-weight: bold;
+    font-family: 'Ultra', serif;
+}
+
+
+.desgaste-button {
+    position: absolute;
+    top: 186px;
+    right: 130px;
+    font-size: 18px;
+}
+
+.desgaste-percentage {
+    position: absolute;
+    top: 220px;
+    right: 86px;
+    font-size: 18px;
+}
+
+.retirar {
+    position: absolute;
+    bottom: 72px;
+    left: 130px;
+    font-size: 27px;
+}
+
+.toggle-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.toggle-buttons .button {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-height: 720px) {
+    .container {
+        width: 1024px;
+        height: 576px;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+
+    .percentage {
+        font-size: 16px;
+    }
+
+    .combustivel-button {
+        top: 71px;
+        right: 87px;
+    }
+
+    .combustivel-percentage {
+        top: 98px;
+        right: 69px;
+    }
+
+    .desgaste-button {
+        top: 147px;
+        right: 101px;
+    }
+
+    .desgaste-percentage {
+        top: 177px;
+        right: 67px;
+    }
+
+    .retirar {
+        bottom: 59px;
+        left: 158px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 768px) {
+    .container {
+        width: 960px;
+        height: 540px;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+
+    .percentage {
+        font-size: 16px;
+    }
+
+    .combustivel-button {
+        top: 66px;
+        right: 76px;
+    }
+
+    .combustivel-percentage {
+        top: 92px;
+        right: 57px;
+    }
+
+    .desgaste-button {
+        top: 136px;
+        right: 90px;
+    }
+
+    .desgaste-percentage {
+        top: 164px;
+        right: 64px;
+    }
+
+    .retirar {
+        bottom: 54px;
+        left: 121px;
+    }
+}
